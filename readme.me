@@ -1,0 +1,27 @@
+##Vote system
+
+#Authors:
+    Itzhak Rahamim
+    Gil Ben Hamo
+    Yovel Aloni 
+    
+#Description:
+    This project is a vote system with zero knowledge proof and ECDH encryption and decryption.
+    Usage:
+        - Client - Vote system (poll).
+        - Server - Committee.
+        - Database - Excel sheets.
+    Key exchange with ECDH:
+        - Generate private and public key for both sides.
+        - Each side send his public key to the other, so they can make shared key.
+    Encryption with AES:
+        - The client send text to the server.
+        - The server will encrypt the text and send it to the client.
+        - The client will decrypt the message.
+    Zero knowledge proof:
+        - Every vote Generates uniq token.
+        - You can check if the token is legal by enter it to Committee.
+
+#Requirements:
+    - Python 3.9 (or above)
+    - Make sure you install all packages listed in "requirements.txt"
