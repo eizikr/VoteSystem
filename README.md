@@ -1,5 +1,3 @@
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/eizikr/VoteSystem/blob/master/LICENSE)
-
 # Vote System
 
 Vote System is a secure voting application that implements zero-knowledge proof and ECDH encryption and decryption. It provides a client-server architecture where clients can participate in polls while maintaining the confidentiality and integrity of the votes. The voting data is stored in Excel sheets.
